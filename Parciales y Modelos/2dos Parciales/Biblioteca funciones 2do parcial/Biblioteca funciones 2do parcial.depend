@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1529714787 source:c:\users\manu\desktop\biblioteca funciones 2do parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionesValidar.h"
+	<string.h>
+
+1529718578 source:c:\users\manu\desktop\biblioteca funciones 2do parcial\funcionesvalidar.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"funcionesValidar.h"
+
+1529717978 c:\users\manu\desktop\biblioteca funciones 2do parcial\funcionesvalidar.h
+
+1530152381 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\biblioteca funciones 2do parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcionesValidar.h"
+	<string.h>
+
+1531020837 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\biblioteca funciones 2do parcial\funcionesvalidar.h
+

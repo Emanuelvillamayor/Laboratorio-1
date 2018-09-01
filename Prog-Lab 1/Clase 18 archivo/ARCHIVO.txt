@@ -1,0 +1,80 @@
+
+************************************************ARCHIVOS********************************************
+
+HACER QUE NUESTROS PROGRAMAS GRABEN INFO EN DISCO Y QUE PUDEAN LEER INFO QUE ESTA EN DISCO
+
+Tiene que tener estas tres condiciones : 
+   1-Abrir el archivo
+   2-Obtener datos dearchivo o grabar en el , es decir usarlo
+   3-Cerrar Archivo
+
+Utilizamos la estructura FILE Y LE DECLARAMOS PUNTERO , ESO VA A REPRESENTAR AL ARCHIVO , ESE PUNTERO
+EJEMPLO:
+     FILE *fp;
+
+DOS TIPOS DE ARCHIVO :
+  *ARCHIVOS DE TEXTOS :SIEMPRE TEXTO
+  *ARCHIVOS BINARIOS : PUEDEN GUARDAR BLOQUES DE INFORMACION (int , char , char e int ,una estructura )
+
+1-PASO : abrir archivo
+  "fopen": ->abre el archivo 
+
+   -Primer parametro("nombre del archivo con direccion fisica .txt,)
+   
+   -al fopen le digo como lo tiene que abrir , si para escribir o para leer , en el SEGUNDO PARAMETRO le indicamos
+    si es pa leer o pa escribir. "w" ->escribir    "r"->leer
+
+EJEMPLO:
+
+      fp=fopen ("D:\\clase\\fichero.txt","w");
+
+
+2-Paso : "fprintf" -> ES PARA USARLO , IMPRIME EN EL ARCHIVO, ES DECIR TEXTO
+ 
+3-Paso . "flclose"-> es para cerrarlo
+
+
+
+Ya pude persistir un texto en la memoria .
+
+
+
+
+
+si lo quiero leer , lo cierro y despues vuelvo a abrirlo
+
+
+
+
+fp=open("D:\\clase\\fichero.txt","r")    
+
+
+fgets(bufferIn,100,fp);->Lo que hay escrito en una linea de archivo , loguarda en la variable que le pasemos " bufferIn"
+                         Solo lee la primer linea.Para eso necesitamos una estructura repetitiva "while" porque no sabemos
+                         la cantidad de lineas.
+
+Ejemplo:
+              while(!feof(fp))
+                 {
+                    fgets(bufferIn,100,fp);
+                     puts(bufferIn);
+                 }
+Guarda en buffer in lo que estan en la consola es decir en fp.
+                        
+
+
+****FUNCION QUE ME PERMITE SABER SI LLEGUE AL FINAL DEL ARCHVIO: "FeoF (si  encontro el final del archivo)"
+
+
+
+Un archvio trabaja con señalador dentro del archivo , cuando leo la primer linea , el señalador queda marcando el final de
+lalectura.
+Es decir que el archivo al acceso es secuencial.
+
+Me tengo que asegurar que lea todas las lineas del archivo 
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1529790567 source:c:\users\manu\desktop\parcial 2 alquiler\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1529790567 c:\users\manu\desktop\parcial 2 alquiler\arraylist.h
+
+1530158704 source:c:\users\manu\desktop\parcial 2 alquiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"Cliente.h"
+
+1530158704 c:\users\manu\desktop\parcial 2 alquiler\cliente.h
+	"Arraylist.h"
+	"alquiler.h"
+
+1530158724 source:c:\users\manu\desktop\parcial 2 alquiler\cliente.c
+	"Cliente.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1530157422 source:c:\users\manu\desktop\parcial 2 alquiler\alquiler.c
+	"alquiler.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1530157422 c:\users\manu\desktop\parcial 2 alquiler\alquiler.h
+
+1530157422 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 alquiler\alquiler.c
+	"alquiler.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1530157422 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 alquiler\alquiler.h
+
+1529790567 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 alquiler\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1529790567 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 alquiler\arraylist.h
+
+1531188799 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 alquiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"Cliente.h"
+
+1531185652 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 alquiler\cliente.h
+	"Arraylist.h"
+	"alquiler.h"
+
+1531189465 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 alquiler\cliente.c
+	"Cliente.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+

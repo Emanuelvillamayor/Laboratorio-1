@@ -1,0 +1,91 @@
+FUNCION QUE CUENTE PARES :
+
+int contarPares (int[],int);    H
+
+
+int contarPares (int array[],int  cantidad)           c
+{
+
+
+int contaPares=0;
+int i;
+/**todos los arrays comienzan en cero para que acompañe los subindices del vector*/
+/**si pongo "<="el ultimo elemento que va a tomar va a estar por fuera del array y va a tomar datos basura*/
+for(i=0;i<cantidad;i++)
+{
+    if (array[i]%2==0)
+    {
+        contaPares++;
+    }
+
+}
+
+
+
+
+
+return contaPares;
+
+
+}
+
+-----------------------------------------------------------------
+FUNCION QUE BUSCA CHAR
+
+
+int buscarChar(char[],int,char);               H
+
+
+int buscarChar(char array[],int cantidad,char caracter )                   c
+{
+     /**lo inicializo en -1 para que cambie el valor si es correcto o sino ya salta -1*/
+    int index=-1;
+    int i;
+    for(i=0;i<cantidad;i++)
+    {
+
+    if (array[i]==caracter)
+    {
+        /**Modicfico el index con "i" para que indique el valor correcto*/
+        index=i;
+        /**pongo el break para que no siga iterando el resto de las cosas , asi una vez que lo encuntra ya esta*/
+        /**El break "Rompe la estructura repetitiva"*/
+        break;
+
+         }
+
+    }
+ return index;
+}
+
+
+-----------------------------------PRIMER EJERCICIO MAIN--------------------------
+
+int main()
+{
+    int vector[5]={5,2,9,6,5};
+    
+  char letras[5]={'f','g','i','h','q'};
+    int cantidad;
+    int indexLetra;*/
+                        /**le paso el vector y la cantidad de elementos*/
+cantidad=contarPares(vector,5);
+    indexLetra=buscarChar(letras,5,'a');
+    if (indexLetra==-1)
+    {
+        printf("No se encuentra el caracter!!!\n");
+
+    }
+    else
+    {
+        printf("EL caracter se encunetra en el array \n");
+    }
+            printf("index= %d\n",indexLetra);
+    printf("La cantidad de pares es : %d\n",cantidad);
+
+
+
+
+
+    return 0;
+}

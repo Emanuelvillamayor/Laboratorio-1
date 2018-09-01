@@ -1,0 +1,7 @@
+Listado de Alumnos
+
+
+Legajo    Nombre     Promedio 
+1949514753	 lucas	22.00
+123	lucas villalva	98.00
+4	lopez asd	20.00

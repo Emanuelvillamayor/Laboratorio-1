@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1525533913 source:d:\mercado1\main.c
+	<stdlib.h>
+	<string.h>
+	"general.h"
+
+1525529781 d:\mercado1\usuario.h
+	"producto.h"
+
+1525531832 d:\mercado1\producto.h
+	"funciones.h"
+
+1525531832 source:d:\mercado1\producto.c
+	"producto.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1525530372 source:d:\mercado1\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"usuario.h"
+
+1525528692 d:\mercado1\funciones.h
+	<stdio.h>
+
+1525528636 source:d:\mercado1\funciones.c
+	"funciones.h"
+
+1525535180 source:d:\mercado1\general.c
+	"general.h"
+	<ctype.h>
+	<stdlib.h>
+
+1525532033 d:\mercado1\general.h
+	"usuario.h"
+
+1525528638 source:c:\users\manu\desktop\mercado1\funciones.c
+	"funciones.h"
+
+1525528694 c:\users\manu\desktop\mercado1\funciones.h
+	<stdio.h>
+
+1525557199 source:c:\users\manu\desktop\mercado1\general.c
+	"general.h"
+	<ctype.h>
+	<stdlib.h>
+
+1525532034 c:\users\manu\desktop\mercado1\general.h
+	"usuario.h"
+
+1525529782 c:\users\manu\desktop\mercado1\usuario.h
+	"producto.h"
+
+1525531834 c:\users\manu\desktop\mercado1\producto.h
+	"funciones.h"
+
+1525533914 source:c:\users\manu\desktop\mercado1\main.c
+	<stdlib.h>
+	<string.h>
+	"general.h"
+
+1525531834 source:c:\users\manu\desktop\mercado1\producto.c
+	"producto.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1525530374 source:c:\users\manu\desktop\mercado1\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"usuario.h"
+
+1525528638 source:c:\users\manu\desktop\final\mercado1\funciones.c
+	"funciones.h"
+
+1525528694 c:\users\manu\desktop\final\mercado1\funciones.h
+	<stdio.h>
+
+1525575514 source:c:\users\manu\desktop\final\mercado1\general.c
+	"general.h"
+	<ctype.h>
+	<stdlib.h>
+
+1525574673 c:\users\manu\desktop\final\mercado1\general.h
+	"usuario.h"
+
+1525899899 c:\users\manu\desktop\final\mercado1\usuario.h
+	"producto.h"
+
+1525909461 c:\users\manu\desktop\final\mercado1\producto.h
+	"funciones.h"
+
+1525899137 source:c:\users\manu\desktop\final\mercado1\producto.c
+	"producto.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1525904436 source:c:\users\manu\desktop\final\mercado1\main.c
+	<stdlib.h>
+	<string.h>
+	"general.h"
+
+1525903914 source:c:\users\manu\desktop\final\mercado1\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"usuario.h"
+
+1525646045 source:c:\users\manu\desktop\final\mercado1\venta.c
+

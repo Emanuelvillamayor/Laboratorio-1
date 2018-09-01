@@ -1,0 +1,16 @@
+GET-SET:
+El encapsulamiento , ocultar los detallas de como funciona algo.
+
+A partir de ahora no hacemos mas el operador "FLECHA  ->"
+
+SET:********DAN VALOR AL CAMPO*********
+Reglas que tienen que cumplirse las establecemos nosotros , id tiene que ser positivo ejemplo
+DENTRO DE UN SET NUNCA SE MUESTRA UN MENSAJE.
+
+"THIS" ES LO MISMO QUE CREAR UNA VARIABLE
+HACE REFERENCIA A ALGO ESPECIFICO LO UTILIZAMOS PARA REEMPLAZAR EL NOMBRE DE ALGUNA ESTRUCTURA.
+
+GET:***********DEVUELVEN EL VALOR DEL CAMPO*************
+SON FUNCIONES QUE ME PERMITEN OBTENER DATOS .
+
+No hace falta tener los dos juntos , podemos tener gets o sets de escritura o lectura

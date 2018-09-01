@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1531267962 source:c:\users\manu\desktop\final reproductor musica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1531267962 c:\users\manu\desktop\final reproductor musica\arraylist.h
+
+1531283597 source:c:\users\manu\desktop\final reproductor musica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"usuarios.h"
+
+1531271093 source:c:\users\manu\desktop\final reproductor musica\temas.c
+	"temas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1531283617 source:c:\users\manu\desktop\final reproductor musica\usuarios.c
+	<stdio.h>
+	<stdlib.h>
+	"usuarios.h"
+	<string.h>
+	<ctype.h>
+
+1531283586 c:\users\manu\desktop\final reproductor musica\usuarios.h
+	"temas.h"
+
+1531271088 c:\users\manu\desktop\final reproductor musica\temas.h
+	"Arraylist.h"
+
+1531267962 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1531267962 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\arraylist.h
+
+1532495329 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"escuchado.h"
+
+1532494984 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\usuarios.h
+	"temas.h"
+
+1532482899 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\temas.h
+	"Arraylist.h"
+
+1532484565 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\temas.c
+	"temas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1532496335 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\usuarios.c
+	<stdio.h>
+	<stdlib.h>
+	"usuarios.h"
+	<string.h>
+	<ctype.h>
+
+1532487487 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\escuchado.h
+	"usuarios.h"
+
+1532487487 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final reproductor musica\escuchado.c
+	"escuchado.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+

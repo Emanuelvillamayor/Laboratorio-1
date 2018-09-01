@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1526745858 source:d:\banco\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1526746012 source:c:\users\manu\desktop\sabado\banco\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1526781228 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 15 punteros\banco-ejemplo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

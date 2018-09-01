@@ -1,0 +1,42 @@
+Un puntero guarda una direccion de memoria de cualquier cosa sin que sea una variable en si 
+Eliminar el intermediario de crear otro archivo para guardar puntero.
+
+LA PILA : Es muy acotado de tamaño , 512 k, entonces cuando declaramos toda la info en la pila
+entonces puede haber un stackoverfloat.Es ESTATICA la pila a medida que termina el marco de ejecucuib
+-----------LA POSTA-------
+
+Dentro de la pila siempre mantener punteros y que esos punteros apunten a otra direccion de memoria
+que se llama HEAT O MONTON . 
+
+HEAT: ES UN SEGMENTO DE MEMORIA DINAMICO , ES DECIR QUE PUEDO RESERVAR O LIBERAR MEMORIA EN TIEMPO DE EJECUCION
+SEGUN NECESITE,EL HEAT ES DINAMICO Y CADA VEZ DEVUELVE DISTINTAS DIRECCIONES DE MEMORIA.
+
+Los punteros declararlos en la pila y desde la pila , apuntar al monton:
+PILA: PUNTEROS
+DATOS:MONTON
+
+MALLOC , ************RESERVA DINAMICA DE MEMORIA,*****************
+DEVUELVE "PUNTERO A VOID" Y RECIBE UN "TAMAÑAO" ,(SIZE_T) EL ESPACIO QUE NECESITO RESERVAR
+
+        si aca va puntero      aca no va puntero
+pPersona=(ePersona*) malloc(size of(dato));
+
+
+El malloc va a *****el monton***** y va a reservar espacio para 54 bytes(en este caso) CONSECUTIVOS dependiendo
+lo que sea y el tamaño.
+
+pPersona->va a recibir la direccion de memoria del primer espacio que esta en el 
+HEAT.
+
+CASTEAMOS , DE ACUERDO A QUE TIPO DE DATO QUEREMOS.
+Si no casteamos , no podemos acceder al tipo de datos queramos .
+Es como si estuviera encapsulando mamushcas de distintos datos ,
+si quiero acceder a la mas chica tengo que ir accedieno a las anteriores para llegar a 
+la mas chica.Asi es con la memoria o el puntero.
+
+MALLOC PUEDE DEVOLVER DOS VALORES:NULL(CUANDO NO ENCUENTRA ESPACIO EN MEMORIA) O UNA DIRECCION
+DE MEMORIA.SIEMPRE COMPROBAMOS QUE NO SEA NULL.
+
+VOID->PUEDE REPRESENTAR TODO EJEMPLO , UNA PERSONA , UN ENTERO , UN ALUMNO LO QUE SEA
+
+

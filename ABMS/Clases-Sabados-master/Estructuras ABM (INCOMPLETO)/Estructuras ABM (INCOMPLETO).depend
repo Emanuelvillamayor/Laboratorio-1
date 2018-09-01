@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1524314590 source:c:\users\alumno\desktop\git\clases-sabados\estructuras abm (incompleto)\productos.c
+	<stdio.h>
+	"Productos.h"
+
+1524314590 c:\users\alumno\desktop\git\clases-sabados\estructuras abm (incompleto)\productos.h
+
+1525221201 source:c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master\estructuras abm (incompleto)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Productos.h"
+
+1525223571 c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master\estructuras abm (incompleto)\productos.h
+
+1525220883 source:c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master\estructuras abm (incompleto)\productos.c
+	<stdio.h>
+	"Productos.h"
+	<stdlib.h>
+	<string.h>
+

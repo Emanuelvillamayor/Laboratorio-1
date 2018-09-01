@@ -1,0 +1,200 @@
+FUNCION  PARA CREAR SOLO UN MENSAJE:
+
+
+void mostrarmensaje(void);
+
+
+
+int main()
+
+{
+    //definir llamada de funcion
+    mostrarmensaje();
+
+
+
+    return 0;
+}
+//implementacion o desarrollo
+void mostrarmensaje(void)
+{
+printf("Hola mundo!!!");
+
+}
+
+
+
+
+FUNCION PARA QUE INGRESES UN NUMERO UN NUMERO Y MUESTRE EL NUMERO:
+
+//prototipo de funcion o declaracion de funcion
+void mostrarNumero(int);
+
+
+
+int main()
+
+{
+// si quiero declarar dos variables con el mismo nombre no se puede porque ambas van a apuntar a la mism a direccion de memoria dentro de main
+    int numero;
+
+    printf("Ingrese un numero: ");
+    scanf("%d",&numero);
+
+
+    //definir llamada de funcion
+    mostrarNumero(numero);
+    // (numero) es el parametro actual
+
+
+
+    return 0;
+}
+//implementacion o desarrollo
+void mostrarNumero(int numero)
+//(int numero) es el parametro formal es decir el parametro que recibe la funcion
+{
+    //funcion que muestra el numero como parametro
+printf("El numero ingresado es : %d", numero);
+
+
+}
+
+// las variables numero son distintas es decir las de la implementacion y las de la llamada de la fucnion
+
+
+
+FUNCION QUE RECIBE UN NUMERO , LO MUESTRA Y LO INCREMENTA:
+
+//prototipo de funcion o declaracion de funcion
+//Recibe entero lo muestra y devuelve entero ibcrenebtado
+int mostrarEincrementar(int);
+
+
+
+int main()
+
+{
+// si quiero declarar dos variables con el mismo nombre no se puede porque ambas van a apuntar a la mism a direccion de memoria dentro de main
+    int numero;
+    int incremento;
+
+    printf("Ingrese un numero: ");
+    scanf("%d",&numero);
+
+
+    //definir llamada de funcion
+   incremento= mostrarEincrementar(numero);
+    // (numero) es el parametro actual
+   printf("\nEl numero incrementado es : %d" , incremento);
+
+
+    return 0;
+}
+//implementacion o desarrollo
+int mostrarEincrementar(int numero)
+//(int numero) es el parametro formal es decir el parametro que recibe la funcion
+{
+    //funcion que muestra el numero como parametro
+    int retorno;
+       printf("El numero ingresado es : %d", numero);
+       retorno=numero+10;
+    //necesito que la funcion devuelva
+    return retorno;
+
+
+
+}
+
+// las variables numero son distintas es decir las de la implementacion y las de la llamada de la funcion
+
+
+
+
+FUNCION QUE PIDA UNO O DOS NUMEROS O MAS :
+int pedirNumero();
+
+int main()
+{
+
+
+
+    int numero1;
+    int numero2;
+  // Puedo reutilizar la funcion "pedirNumero" para llamar dos numeros;
+    numero1=pedirNumero();
+    numero2=pedirNumero();
+    printf("El numero ingresado es :  %d",numero1);
+    
+
+    return 0;
+}
+int pedirNumero()
+{
+    //Funcion que permite ingresar cualquier numero
+    int numero;
+    printf("Ingrese un numero : ");
+    scanf("%d",&numero);
+
+    return numero;
+}
+
+
+
+
+FUNCION GENERICA QUE PIDA ENTERO:
+
+//FUNCION GENERICA
+// char[] es un string que recibe conjunto de letras..
+int pedirEntero(char[]);
+
+int main()
+{
+
+
+
+    int edad;
+    int legajo;
+
+  // la funcion muestra el mensaje que yo le pase por parametro
+  // lo que va adentro de pedirEntero va a ser un string por lo cual debemos modificar la funcion
+    edad=pedirEntero("Ingrese edad : ");
+
+    legajo=pedirEntero("Ingrese legajo :");
+  printf("La edad es : %d y el legajo es :%d", edad , legajo);
+
+
+    return 0;
+}
+int pedirEntero(char mensaje[])
+{
+    //Funcion que permite ingresar cualquier numero
+    int numero;
+    // El printf llama a la funcion que esta en el main y muestre ese mensaje
+    printf("%s", mensaje );
+    scanf("%d",&numero);
+
+    return numero;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

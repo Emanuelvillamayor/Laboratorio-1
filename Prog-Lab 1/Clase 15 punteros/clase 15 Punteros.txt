@@ -1,0 +1,128 @@
+Siempre intento escribir menos, es decir cuanto mas sabemos menos escribimos:
+
+Ejemplo de un libro en el cualtenia dos indice
+programamos para busqueda
+
+Los punteros son direcciones de donde se encuentra el dato , cada dato en memoria ram tiene direccion
+en vez de tener solola posicion tambien accedo a la memoria ram es decir podemos obtener esa direccion de memoria ram;
+
+
+*PunteroNumero , no es un entero no le puedo asignar valores como un int comun 
+
+Al puntero si le puedo asignar una DIRECCION DE MEMORIA :
+
+  *PunteroNumero=&numero; ESTO NO SE PUEDE HACER!!
+
+  
+  -El puntero sin el ampersan y la otra direccion tienen el mismo valor
+   obtengo una direccion de memoria porque necesito saber de donde empieza no de donde termina :
+
+     printf("%d\n",&numero);
+     printf("%d\n",punteroNumero);
+
+  -Nos muestra la direccion en donde esta guardado el puntero:
+
+   printf("%d\n",&punteroNumero); 
+
+EL concepto de punteros me permite hacer un swap de variables sabiendo donde esta ubicada una 
+MANEJO UNA DIRECCION DE MEMORIA , LO QUE ORDENO ES EL PUNTERO.
+
+EJEMPLO SI QUIERO ORDENAR A ALUMNS POR NOMBRE NO LOSHAGO SENTAR A TODOS DE UNA FORMA DETERMINADA , SOLO CAMBIO
+U ORDENO LO QUE TENGO EN MI LISTA ES DECIR EL PUNTERO
+
+
+
+%p PARA MOSTRAR PUNTEROS  Y LO HACE EN HEXADECIMAL ES DECIR LA DIRECCION DEL PUNTERO
+
+
+
+ printf("%d\n",*punteroNumero);  Muestro el numero del entero que escribimos 
+
+
+
+
+Desventaja que tiene es que si defino puntero y no le pongo valor , es posible que este apuntando a cualquier lado
+porque todavia no le digo lo que estaba adentro o lo que sea.
+Es decir cuandolo inicializo sin ningun valor
+
+
+
+&numeroDos=&numero; Nos se puede hacer porque son solo direcciones de memoria y no hay nada para asignar
+
+
+ numeroDos=&numero;  Guardo la direccion de memoria dentro de ese elemento
+
+
+
+   punteroNumero=&numero;  
+    printf("a--%d\n",numeroDos); //aca tomo la direccion 
+
+  numeroDos=*punteroNumero;
+     printf("b--%d\n",numeroDos); // aca tomo el valor
+
+
+
+
+PREGUNTAS EN EL PARCIAL SOBRE LO QUE MUESTRA CUALQUIER COSA  
+
+*********************************TODO LO ANTERIOR ES PUNTERO DE ENTEROS**********************************************
+
+****************************FUNCIONES PUNTEROS************************************************
+
+
+PUEDO PASAR PUNTERO DE UNA VARIABLE U OTRO PUNTERO;
+EN EL CASO DE PASAR UNA VARIALBE NUNCA VA A VER PROBLEMAS "&" PORQUE LA VARIABLE YA ES CREADA Y CARGADA
+
+
+VALIDAR TODOS LOS PUNTERO PORQUE QUIZAS ALGUN PUNTERO NO TIENE NADA
+
+**********************************************VECTORES PUNTEROS ***************************************************
+Los punteros son posiciones de memoria del lugar donde va a estar y le asignamos un valor;
+TIene algebra en particula la aritmetica de punteros , 
+
+
+          printf("\n numero :%d\n",*puntero+i); esto no son direcciones de memoria sino contenido
+
+
+Para agrandar array tengo que crear un array nuevo y consume mucho si lo hacemos de la forma de array
+
+NECESITO QUE LASDIRECCIONES DE MEMORIA NO SEAN CONTINUAS SINO QUE PODEMOS CARGAR EN CUALQUIER LADO
+
+
+    // printf("\n numero :%d\n",*(puntero+i)); dependiendo de donde ubique el asterisco o los signos va a dar distintas cosas
+   HAY QUE PRACTICAR A VER QUE ES LO QUE MUESTRA CADA COSA
+
+
+-PUNTERO A VOID PUEDE TENER CUALQUIER COSAS;
+
+
+
+
+
+-Le sumo direccion de memoria:
+
+     printf("\n puntero :%d\n",*(puntero+1)); MUESTRA CONTENIDO
+     printf("\n puntero :%d\n",*(puntero+2));
+     printf("\n puntero :%d\n",*(puntero+3));
+
+
+
+/********************************************CADENA CARACTERES ******************************************************/
+
+char *apellido="miApellido"
+
+for(i=0;*(apellido+i)!='\0';i++) //Sirve para queapenas encuentre la palabra , finalice
+     {
+        // if(*(apellido+i)!='\0')
+         //{
+           printf("\n%c\n",*(apellido+i)); ESTO PERMITE MOSTRAR UNA SIGUIENTE DELA OTRA DE LOS CARACTERES EL TAMAÑO LO DELIMITO EN EL FOR
+
+         //}
+     }
+
+
+
+
+   
+
+  

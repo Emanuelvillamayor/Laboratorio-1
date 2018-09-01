@@ -1,0 +1,5 @@
+1 --- peso --- argentina 
+2 --- real --- brasil 
+3 --- dolar --- eeuu 
+4 --- euro --- espania 
+5 --- libra --- inglaterra 

@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1532472646 source:c:\users\manu\downloads\paula\utnstuff-master\lab1\final_reproductormusica_practica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532472646 c:\users\manu\downloads\paula\utnstuff-master\lab1\final_reproductormusica_practica\arraylist.h
+
+1532472646 source:c:\users\manu\downloads\paula\utnstuff-master\lab1\final_reproductormusica_practica\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"lib.h"
+	"ArrayList.h"
+
+1532472646 c:\users\manu\downloads\paula\utnstuff-master\lab1\final_reproductormusica_practica\lib.h
+	"ArrayList.h"
+
+1532472646 source:c:\users\manu\downloads\paula\utnstuff-master\lab1\final_reproductormusica_practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_reproductormusica_practica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_reproductormusica_practica\arraylist.h
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_reproductormusica_practica\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"lib.h"
+	"ArrayList.h"
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_reproductormusica_practica\lib.h
+	"ArrayList.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_reproductormusica_practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+

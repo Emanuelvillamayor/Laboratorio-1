@@ -1,0 +1,31 @@
+abrir consoloa system 32 : mantego apretado shift y toco click derecho "abrir consola de comandos"
+
+-cd shift y letra mayuscula y p para referirnos ala carpeta dentro es decir "PunterosEnC-"
+
+cd: es para entrar a la carpeta
+En esta carpeta vamos a crear todos los projectos de punteros.
+
+
+
+
+flecha para arriba: aparece git status
+
+
+git add . : 
+
+el git nos permite frenar nuestro codigo y luego siguieramos hacer la instantanea podes crear un zip
+para eso se hace la instantanea tenemos que usar el comando : "git commit -m "primer commit"
+Cada "commit" va a decir lo que vamos haciendo comentando y diciendo nuestros progresos.
+
+
+puede ser que tenemos que estar logueados entonces ejecutamos esos comandos :
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"
+
+
+comando que embolsa todos los commits para subirlos :
+git push origin master -f  y luego ingresamos contraseña  y usuario y ya se carga a el fork de "PunterosEnC-"
+
+
+Creamos un documento y lo abrimos en sublime text
+

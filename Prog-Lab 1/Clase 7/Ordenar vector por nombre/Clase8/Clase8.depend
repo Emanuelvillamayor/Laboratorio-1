@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1524231467 source:c:\users\alumno\desktop\clase8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1524497512 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 8\clase8\clase8.c
+	"clase8.h"
+	"stdio.h"
+
+1524525536 c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 8\clase8\clase8.h
+
+1524497512 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 8\clase8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clase8.h"
+	<string.h>
+
+1524497512 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 7\ordenar vector por nombre\clase8\clase8.c
+	"clase8.h"
+	"stdio.h"
+
+1524525536 c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 7\ordenar vector por nombre\clase8\clase8.h
+
+1524497512 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 7\ordenar vector por nombre\clase8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clase8.h"
+	<string.h>
+

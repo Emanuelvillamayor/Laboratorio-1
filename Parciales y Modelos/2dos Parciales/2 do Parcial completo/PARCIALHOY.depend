@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1530188596 source:d:\parcialhoy\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1530187934 d:\parcialhoy\arraylist.h
+
+1530195198 source:d:\parcialhoy\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1530187126 d:\parcialhoy\funciones.h
+
+1530187153 source:d:\parcialhoy\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"funciones.h"
+
+1530193190 d:\parcialhoy\persona.h
+	"funciones.h"
+	"Arraylist.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1530194923 source:d:\parcialhoy\persona.c
+	"persona.h"
+
+1530188598 source:c:\users\manu\desktop\parcialhoy\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1530187936 c:\users\manu\desktop\parcialhoy\arraylist.h
+
+1530187154 source:c:\users\manu\desktop\parcialhoy\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"funciones.h"
+
+1530187128 c:\users\manu\desktop\parcialhoy\funciones.h
+
+1530194924 source:c:\users\manu\desktop\parcialhoy\persona.c
+	"persona.h"
+
+1530193192 c:\users\manu\desktop\parcialhoy\persona.h
+	"funciones.h"
+	"Arraylist.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1530188598 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\2 do parcial completo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1530187936 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\2 do parcial completo\arraylist.h
+
+1530187154 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\2 do parcial completo\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"funciones.h"
+
+1530187128 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\2 do parcial completo\funciones.h
+
+1530195736 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\2 do parcial completo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1530193192 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\2 do parcial completo\persona.h
+	"funciones.h"
+	"Arraylist.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1530194924 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\2 do parcial completo\persona.c
+	"persona.h"
+

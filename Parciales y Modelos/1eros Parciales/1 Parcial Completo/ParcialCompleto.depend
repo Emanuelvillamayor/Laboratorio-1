@@ -1,0 +1,149 @@
+# depslib dependency file v1.0
+1527141432 source:c:\users\manu\desktop\parcialcompleto\automovil.c
+	"automovil.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1527144286 c:\users\manu\desktop\parcialcompleto\automovil.h
+	"funciones.h"
+
+1527143380 c:\users\manu\desktop\parcialcompleto\funciones.h
+	<stdio.h>
+
+1527144286 source:c:\users\manu\desktop\parcialcompleto\egreso.c
+	"egreso.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+
+1527144286 c:\users\manu\desktop\parcialcompleto\egreso.h
+	"propietario.h"
+
+1527143380 c:\users\manu\desktop\parcialcompleto\propietario.h
+	"automovil.h"
+
+1527634412 source:c:\users\manu\desktop\parcialcompleto\funciones.c
+	"funciones.h"
+	"string.h"
+
+1529527876 source:c:\users\manu\desktop\parcialcompleto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"general.h"
+
+1529527834 c:\users\manu\desktop\parcialcompleto\general.h
+	"egreso.h"
+
+1527141274 source:c:\users\manu\desktop\parcialcompleto\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"propietario.h"
+
+1529527834 source:c:\users\manu\desktop\parcialcompleto\general.c
+	"general.h"
+	<ctype.h>
+	<stdlib.h>
+
+1527141432 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\automovil.c
+	"automovil.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1527144286 c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\automovil.h
+	"funciones.h"
+
+1527143380 c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\funciones.h
+	<stdio.h>
+
+1527144286 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\egreso.c
+	"egreso.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+
+1527144286 c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\egreso.h
+	"propietario.h"
+
+1527143380 c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\propietario.h
+	"automovil.h"
+
+1527634412 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\funciones.c
+	"funciones.h"
+	"string.h"
+
+1529527876 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\main.c
+	<stdio.h>
+	<stdlib.h>
+	"general.h"
+
+1529527834 c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\general.h
+	"egreso.h"
+
+1527141274 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\parcialcompleto\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"propietario.h"
+
+1527141432 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\automovil.c
+	"automovil.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1527144286 c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\automovil.h
+	"funciones.h"
+
+1527143380 c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\funciones.h
+	<stdio.h>
+
+1527144286 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\egreso.c
+	"egreso.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+
+1527144286 c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\egreso.h
+	"propietario.h"
+
+1527143380 c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\propietario.h
+	"automovil.h"
+
+1527634412 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\funciones.c
+	"funciones.h"
+	"string.h"
+
+1529527982 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\general.c
+	"general.h"
+	<ctype.h>
+	<stdlib.h>
+
+1529527834 c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\general.h
+	"egreso.h"
+
+1529527876 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"general.h"
+
+1527141274 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\1eros parciales\1 parcial completo\propietario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"propietario.h"
+

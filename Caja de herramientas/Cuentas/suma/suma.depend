@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1523084024 source:c:\users\manu\desktop\suma\suma.c
+	"Suma.h"
+
+1523084024 c:\users\manu\desktop\suma\suma.h
+
+1523084081 source:c:\users\manu\desktop\caja de herramientas\suma\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Suma.h"
+
+1523084024 c:\users\manu\desktop\caja de herramientas\suma\suma.h
+
+1523084131 source:c:\users\manu\desktop\caja de herramientas\suma\suma.c
+	"Suma.h"
+	"stdio.h"
+

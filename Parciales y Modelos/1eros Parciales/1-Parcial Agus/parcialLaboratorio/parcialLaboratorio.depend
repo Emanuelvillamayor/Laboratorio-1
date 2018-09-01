@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1526621130 source:c:\users\alumno\downloads\1-parciallaboratorio-master\parciallaboratorio\automovil.c
+	"automovil.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1526621130 c:\users\alumno\downloads\1-parciallaboratorio-master\parciallaboratorio\automovil.h
+	"propietario.h"
+
+1526621130 c:\users\alumno\downloads\1-parciallaboratorio-master\parciallaboratorio\propietario.h
+
+1526621130 source:c:\users\alumno\downloads\1-parciallaboratorio-master\parciallaboratorio\egresos.c
+	<stdio.h>
+	"egresos.h"
+
+1526621130 c:\users\alumno\downloads\1-parciallaboratorio-master\parciallaboratorio\egresos.h
+	"automovil.h"
+
+1526621130 source:c:\users\alumno\downloads\1-parciallaboratorio-master\parciallaboratorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"egresos.h"
+
+1526621130 source:c:\users\alumno\downloads\1-parciallaboratorio-master\parciallaboratorio\propietario.c
+	<stdio.h>
+	<string.h>
+	"propietario.h"
+
+1526621130 source:c:\users\manu\desktop\1-parcial agus\parciallaboratorio\automovil.c
+	"automovil.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1526621130 c:\users\manu\desktop\1-parcial agus\parciallaboratorio\automovil.h
+	"propietario.h"
+
+1526621130 c:\users\manu\desktop\1-parcial agus\parciallaboratorio\propietario.h
+
+1526621130 source:c:\users\manu\desktop\1-parcial agus\parciallaboratorio\egresos.c
+	<stdio.h>
+	"egresos.h"
+
+1526621130 c:\users\manu\desktop\1-parcial agus\parciallaboratorio\egresos.h
+	"automovil.h"
+
+1526621130 source:c:\users\manu\desktop\1-parcial agus\parciallaboratorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"egresos.h"
+
+1526621130 source:c:\users\manu\desktop\1-parcial agus\parciallaboratorio\propietario.c
+	<stdio.h>
+	<string.h>
+	"propietario.h"
+
+1526621130 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\1-parcial agus\parciallaboratorio\automovil.c
+	"automovil.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1526621130 c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\1-parcial agus\parciallaboratorio\automovil.h
+	"propietario.h"
+
+1526621130 c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\1-parcial agus\parciallaboratorio\propietario.h
+
+1526621130 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\1-parcial agus\parciallaboratorio\egresos.c
+	<stdio.h>
+	"egresos.h"
+
+1526621130 c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\1-parcial agus\parciallaboratorio\egresos.h
+	"automovil.h"
+
+1526621130 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\1-parcial agus\parciallaboratorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"egresos.h"
+
+1526621130 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\parcial y modelos\parcial 1\1-parcial agus\parciallaboratorio\propietario.c
+	<stdio.h>
+	<string.h>
+	"propietario.h"
+

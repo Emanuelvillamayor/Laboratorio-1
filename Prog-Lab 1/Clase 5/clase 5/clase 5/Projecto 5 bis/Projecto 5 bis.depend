@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1523681696 source:c:\users\manu\desktop\projecto 5 bis\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+
+1523682043 c:\users\manu\desktop\projecto 5 bis\funciones.h
+
+1523682002 source:c:\users\manu\desktop\projecto 5 bis\funciones.c
+	"Funciones.h"
+	"stdio.h"
+
+1523682002 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 5\clase 5\clase 5\projecto 5 bis\funciones.c
+	"Funciones.h"
+	"stdio.h"
+
+1523682043 c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 5\clase 5\clase 5\projecto 5 bis\funciones.h
+
+1523681696 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 5\clase 5\clase 5\projecto 5 bis\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+

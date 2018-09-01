@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1528333840 source:c:\users\manu\desktop\clase 15\eman\clase 15 memoria dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+
+1528333840 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 17 memoria\get-set y malloc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+

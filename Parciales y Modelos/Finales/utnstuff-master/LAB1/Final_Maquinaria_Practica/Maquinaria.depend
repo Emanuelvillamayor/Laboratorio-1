@@ -1,0 +1,263 @@
+# depslib dependency file v1.0
+1532300735 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\main.c
+	"control.h"
+
+1532299814 c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\lib.h
+
+1530221686 c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\arraylist.h
+
+1532302716 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532299554 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"lib.h"
+
+1532440189 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+
+1532299351 c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\alquileres.h
+	"clientes.h"
+
+1532440342 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+
+1532299288 c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\clientes.h
+	"ArrayList.h"
+	"dataManager.h"
+	"alquileres.h"
+	"lib.h"
+	"vista.h"
+
+1532300439 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\control.c
+	<stdio.h>
+	<stdlib.h>
+	"control.h"
+
+1532297381 c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\control.h
+	"clientes.h"
+	"vista.h"
+	"dataManager.h"
+
+1532299164 c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\vista.h
+
+1532440308 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\vista.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"vista.h"
+
+1531670720 c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\ctes.h
+
+1531670608 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\ctes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"ArrayList.h"
+	"lib.h"
+	"ctes.h"
+	"vista.h"
+
+1532298314 c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\datamanager.h
+	"ArrayList.h"
+	"clientes.h"
+	"alquileres.h"
+	"lib.h"
+
+1532300704 source:c:\users\palu\desktop\utnstuff\lab1\final_maquinaria_practica\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"dataManager.h"
+
+1530221621 source:c:\users\palu\desktop\utn\zips\final_maquinaria_practica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1530221686 c:\users\palu\desktop\utn\zips\final_maquinaria_practica\arraylist.h
+
+1532226208 source:c:\users\palu\desktop\utn\zips\final_maquinaria_practica\control.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"control.h"
+	"clientes.h"
+	"alquileres.h"
+	"ArrayList.h"
+	"vista.h"
+	"lib.h"
+	"dataManager.h"
+
+1532225833 c:\users\palu\desktop\utn\zips\final_maquinaria_practica\control.h
+
+1532226280 c:\users\palu\desktop\utn\zips\final_maquinaria_practica\clientes.h
+	"ArrayList.h"
+
+1532224948 c:\users\palu\desktop\utn\zips\final_maquinaria_practica\alquileres.h
+	"clientes.h"
+
+1531931194 c:\users\palu\desktop\utn\zips\final_maquinaria_practica\vista.h
+	"alquileres.h"
+
+1531621529 c:\users\palu\desktop\utn\zips\final_maquinaria_practica\lib.h
+	"ArrayList.h"
+
+1532225842 c:\users\palu\desktop\utn\zips\final_maquinaria_practica\datamanager.h
+
+1532226115 source:c:\users\palu\desktop\utn\zips\final_maquinaria_practica\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"lib.h"
+	"ArrayList.h"
+	"dataManager.h"
+	"clientes.h"
+	"alquileres.h"
+
+1532225400 source:c:\users\palu\desktop\utn\zips\final_maquinaria_practica\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"lib.h"
+
+1531613543 source:c:\users\palu\desktop\utn\zips\final_maquinaria_practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1532222679 source:c:\users\palu\desktop\utn\zips\final_maquinaria_practica\vista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"vista.h"
+	"alquileres.h"
+
+1532226027 source:c:\users\palu\desktop\utn\zips\final_maquinaria_practica\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	<time.h>
+	"lib.h"
+	"alquileres.h"
+	"clientes.h"
+	"vista.h"
+
+1532226280 source:c:\users\palu\desktop\utn\zips\final_maquinaria_practica\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"ArrayList.h"
+	"lib.h"
+	"clientes.h"
+	"alquileres.h"
+	"vista.h"
+	"dataManager.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\alquileres.h
+	"clientes.h"
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\clientes.h
+	"ArrayList.h"
+	"dataManager.h"
+	"alquileres.h"
+	"lib.h"
+	"vista.h"
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\arraylist.h
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\datamanager.h
+	"ArrayList.h"
+	"clientes.h"
+	"alquileres.h"
+	"lib.h"
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\lib.h
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\vista.h
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\control.c
+	<stdio.h>
+	<stdlib.h>
+	"control.h"
+
+1532472646 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\control.h
+	"clientes.h"
+	"vista.h"
+	"dataManager.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\datamanager.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"dataManager.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"lib.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\main.c
+	"control.h"
+
+1532472646 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\utnstuff-master\lab1\final_maquinaria_practica\vista.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"vista.h"
+

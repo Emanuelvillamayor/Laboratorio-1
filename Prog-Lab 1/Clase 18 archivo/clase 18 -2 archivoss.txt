@@ -1,0 +1,92 @@
+Diferencia entre archivo de texto y binario, los archivos de texto serializa el valor ascii de cada caracter
+si por ejemplo guardo el 123 , se guarda en formato ascii es decir una "{" pero en memoria lo guarda en binario.
+siyo guardo el 1 en binario, se reserva espacio en disco para esos cuatro bytes del int
+si yo guardo el 1 en texto ,se guarda el valor ascii de ese uno y solo 1 byte
+
+Para estructuras conviene utilizar el archivo binario
+
+Ejemplos: Si yo solo quiero imprimir informe de ventas lo hago en texto , porqe es solo de muestray para imprimir.
+
+
+*****************************************************************************************************************
+
+"\ la contrabarra es una secuenciadeescape por eso cuando damos ladireccion para guardar un archivo ponemos dos barras"
+
+*****************************************************************************************************************
+
+Al fprintf le tengo que pasar cualquier tipo de dato pero siempre que sea string porque lee solo cadenas y no enteros, float,etc
+
+
+
+fgets para leer
+
+
+ESTA FUNCION SE PUEDE USAR PARA ARCHIVOS BINARIOS Y TEXTO
+QUE RECIBE (parametros):
+1º - La direccion de memoria del lugar donde se encuentra el dato que voy a escribir se le pasa el ampersand "&" o puede ser un puntero
+2º - Es el sizeof del tipo de dato que voy a escribir ->devuelve el peso en bytes del dato si es un entero es un 4.
+     el size of sirve para no pasar bytes de mas de acuerdo a cada sistema operativo. Para arquitectura de 64 bits un int es de 4 bytes.
+3º Cantidad de datos que vamos a escribir. en esta caso solo "1".
+4º Funcion recibe el string de datos es decir el puntero a file.
+
+ 
+         1º        2º      3º      4º
+fwrite(&numero,sizeof(int),1,miArchivo);
+
+origen y destino
+
+------El problema que tiene es que pasa a codigo ascii lo que ponemos-----
+
+
+PARA LECTURA:
+USAMOS fread -> recibe lo mismo que el fwrite
+***************para el fread COMVIENE USAR EL fprintf...*******
+Esto nolo muestra en codigo ascii , lo muestra en texto y lo muestra bien
+destino y origen.
+
+
+
+
+
+
+**********************************************************BINARIO***********************************************************
+
+
+
+Es imposible que el usuario entienda 
+PARA BINARIO PODES USAR EXTENSION dat , bin o ninguna extension :
+wb-> modo de escritura binaria
+SPLIT: ->Recorta en pedazitos un string atraves del caracter delimitador , rescata  ese pedazito y lo guarda en una variable
+
+Cada campo separamos con "," para que no sean valores de char , sino que sea su valor propio es decir si es un int que sea int , float que sea float
+
+Para eso esta la funcion "fscanf"
+
+
+
+
+
+ADEMAS DE LEER Y ESCRIBIR TENEMOS QUE HACER INFORME EN HTML
+1 VEZ QUE EJECUTEMOS NO VA A VER DATOS
+CARGAMOS , CUANDO CIERRO GUARDAMOS EN ARCHIVO Y EL FLUJO ES DE SALIDA Y RECIEN AHI HACEMOS FOPEN DE CREAR EL ARCHIVO Y GUARDO LAS TRE SPELICULAS 
+QUE TENIA EN MEMORIA.
+rEALIZAMOS LAS LECTURAR PARA VER SI YA  HABIA DATOS PARA TRABAJAR SIEMPRE EN MEMORIA.
+
+
+opcion del menu de mostrarlistado , no lo hacemos sobre la consola sino sobre un archivo HTML -> SE GENERA UN ARCHIVO "html" y podemos abrir ese archivo,
+se carga en un navegador y podemos ver el listado de peliculas.
+
+hAY UN TEMPLATE -> DECOMO ARMAR LA ESTRUCTURA DE LA PELICULA EN EL HTML
+
+
+COMO HACER PARA QUE EL PROGRAMA GENERE UN ARCHIVO DE HTML ->
+Puedo generar archivo de texto desde c
+TENEMOS QUE PONER PARTE ESTATICA Y PARTE DINAMICA ES DECIR IR ARMANDO PEDACITOS DE TEXTO EN DONDE HALLA ETIQUETAS DE HTML
+Y QUE HALLA VALORES.
+
+
+html es un lenguaje de diseño web
+
+
+
+

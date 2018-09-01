@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1529526325 source:c:\users\manu\desktop\parserr\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

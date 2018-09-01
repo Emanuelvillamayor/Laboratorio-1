@@ -1,0 +1,147 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Se le indica dentro de los corchetes la cantidad de elementos que quiero que acumule
+    //Podemos cargar el vector por extension cuando declaramos la variable
+    int vector[5]={9,-3,5,14,-4};
+     //Lo que hace que todos los elementos se inicialicen en "0" sonlas llaves {}
+     // si quiero inicializarlo a cero puedo dejarlas llaves vacias
+    //Inicia en cero porque el Subindice es cero
+    int i;
+    //Para mostrarlo tenemos que poner un "For"
+
+    //Si pongo ampersand(&) adelante del vector me va a mostrar la direccion de memoria del primer elemento
+    //Por mas que no le ponga el ampersand igual va a mostrar la direccion de memoria del primer elemento
+    //printf ("Vector %d\n",&vector);
+
+
+
+    for (i=0;i<5;i++)
+    {
+    //Tengo que determinar en que posicion estoy dentro de los printf,es decir el subindice
+    //Entre corchetes le indcio que elemento va a mostrar
+    //Va iterando y va mostrando losvalores que se van cargando a medida que itera
+    
+    for (i=0;i<5;i++)
+    {
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------
+/*Podemos definir esto para que se escriba menor a 5
+Es decir va a ser un elemento no modificable como las variables
+#define TAM 5*/
+
+int main()
+{
+    //Se le indica dentro de los corchetes la cantidad de elementos que quiero que acumule
+    //Podemos cargar el vector por extension cuando declaramos la variable
+    int vector[5];
+     //Lo que hace que todos los elementos se inicialicen en "0" sonlas llaves {}
+     // si quiero inicializarlo a cero puedo dejarlas llaves vacias
+    //Inicia en cero porque el Subindice es cero
+    int i;
+    //Para mostrarlo tenemos que poner un "For"
+
+    //Si pongo ampersand(&) adelante del vector me va a mostrar la direccion de memoria del primer elemento
+    //Por mas que no le ponga el ampersand igual va a mostrar la direccion de memoria del primer elemento
+    //printf ("Vector %d\n",&vector);
+
+
+
+    for (i=0;i<5;i++)
+    {
+    //todos los elementos van a estar en ese valor es decir "7"
+    //Se va a mostrar 5 veces el numero 7
+    vector[i] =  7;
+
+   }
+   /*
+ for (i=0;i<10;i++)
+    {
+   printf("Ingrese un numero : ");
+   //El numero que ingrese se va a guardar en distintas posiciones de acuerdo el usuario indique
+   //Hay que guardar el dato en ladireccion de memoria
+   scanf("%d",vector[i]);
+
+    }
+ACA PUEDE LEER EL RESTO DE MEMORIAS PORQUE ESTA EN "10"
+  */
+
+
+
+    return 0;
+}
+---------------------------------------------------------------------
+
+FUNCION QUE LEE LOS NUMEROS INGRESADOS EN CADA ESPACIO DE MEMORIA
+
+
+ for(i=0;i<TAM ;i++)
+ {
+ printf("%d\n",vector[i]);
+ }
+
+
+---------------------------------------------------------
+/*-----------------FUNCION QUE CALCULE EL MAXIMO----------------------*/
+int Maximo(int[],int);
+int main()
+{
+
+    int vector[TAM];
+    int i;
+    int max;
+    //le paso la direccion de memoria y escribo solo vector
+
+    for(i=0;i<TAM ;i++)
+        {
+
+    printf("ingrese un numero: ");
+    scanf ("%d",&vector[i]);
+
+
+    }
+     max =Maximo(vector,TAM);
+   printf("El vector maximo es : %d",max);
+/* for(i=0;i<TAM ;i++)
+ {
+ printf("%d\n",vector[i]);
+ }*/
+
+return 0;
+}
+
+
+int Maximo(int vect[],int tamanio)
+{
+    int maximo;
+    int flag=0;
+    int i;
+    /*uso un forpara que recorra el vector*/
+    for (i=0;i<TAM;i++)
+    {
+        if (flag==0 ||vect[i]>maximo)
+        {
+            maximo=vect[i];
+            flag=1;
+                 }
+    }
+
+
+
+
+
+
+
+
+

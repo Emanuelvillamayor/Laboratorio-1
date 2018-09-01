@@ -1,0 +1,60 @@
+El enunciado describe las funciones del array list
+Cada funcion del arraylist va a ser testeada por otra funcion
+El programa hace la llamada por detras y le agrega datos alarraylist,
+
+si la funcion "add" esta bien programada pasa todos los test unitario y no siempre prueban todo el 100% 
+Ejemplo : quiero agregar el dato y no se lo agrega.
+
+El main esta formado por cada test y que es loque hacen, el test dice que funcion esta testeando.
+
+***********************************
+
+Array list:gestiona PUNTEROS
+
+Tres campos principales y funciones que ayudan
+
+Si quiero obtenerel size hago el al_len .
+
+
+pElements->Peso de la info
+
+Permite que se hacemos un ordenamiento , se ordenen los punteros,y puedo reservar espacio dinamico.
+
+El peso de la sumatoria de los punteros es mas chico que las estructuras.
+
+Si tengo que ordenar solo cambio direcciones de memoria.
+
+Si necesito mas memoria , no levanta todos los datos de la estructura sino solo las direcciones de memoria de los punteros
+
+
+
+CONSTRUCTOR:
+
+Construye un espacio en memoria, vamos a necesitar uno para el array list.
+
+al_add:
+Tiene que agregar un dato , le llega puntero a array list y un puntero a void
+El puntero a void es lo que quiero agregar un puntero del tipo que YA ESTA CREADO 
+
+1º valido que los dos punteros que me llegan no sean NULL.
+
+   "int al_add(ArrayList* this, void* pElement)"
+
+El size me dice cuantos elementos tengo guardados y apunta al proximo elemento
+Es decir indica a donde esta apuntando al proximo.
+
+
+*******************************************************************************************************
+resize up , me devuelve ese arraly list con mas elementos, hay que pasalor a resize up para cada vez que necesitemos espacio
+en memoria
+
+
+********************************Funciones que permiten agregar y sacar elementos al arraylist********
+pop
+remove elimina elemento del array
+push
+set
+
+
+
+

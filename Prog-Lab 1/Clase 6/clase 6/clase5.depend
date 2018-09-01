@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1523620482 source:c:\users\alumno\desktop\clase5\clase5.c
+
+1523620484 source:c:\users\manu\desktop\clase 6 a\clase 6\clase5.c
+
+1523922704 source:c:\users\manu\desktop\clase 6 a\clase 6\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1524184917 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 6\clase 6\clase5.c
+	"clase5.h"
+	"stdio.h"
+
+1524184917 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 6\clase 6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"clase5.h"
+
+1524185015 c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 6\clase 6\clase5.h
+

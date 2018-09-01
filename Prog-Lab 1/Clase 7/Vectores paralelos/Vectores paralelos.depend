@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1524148298 source:d:\vectores paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1524183932 source:c:\users\manu\desktop\clase 7\vectores paralelos\vectores paralelos.c
+	"vectores paralelos.h"
+	"stdio.h"
+
+1524184149 c:\users\manu\desktop\clase 7\vectores paralelos\vectores paralelos.h
+
+1524184441 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 7\vectores paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"vectores paralelos.h"
+
+1524184149 c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 7\vectores paralelos\vectores paralelos.h
+
+1524183932 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 7\vectores paralelos\vectores paralelos.c
+	"vectores paralelos.h"
+	"stdio.h"
+

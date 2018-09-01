@@ -1,0 +1,151 @@
+PUNTEROS : variable que guarda direccion de memoria de otra variable
+
+
+*********************************************¿Para que usamos punteros?**************************************************
+                               
+-Codigo mas eficiente
+-Posibilidad de administrar los recursos 
+-Punteros permite crear vector dinamico y hacer que crezca y decrezca para esono hace falta
+ declarar un vector de un tamaño ejemplo de 1000000.
+
+-Movemos menos datos en memoria , dos sectores distintos , LA PILA Y EL MONTON:
+
+ *LA PILA:tiene cuota reducida de memoria y si programamostodo ahi puede ser que se desborde
+           -esta diseñada para guardar variables que apunten a otras direcciones de memoria.
+
+  -PUNTEROS APUNTAN AL "MONTON" SIN IMPORTAR EL TIPO SIEMPRE PESAN 4 BYTES y o gestiono los punteros.
+
+-Calculo aritmetico de como se hace el puntero 
+
+-EL PUNTERO NECESITA SI O SI ADQUIRIR UNA VARIABLE DE MEMORIA PARA QUE DENTRO TENGA UNA DIRECCION DE MEMORIA YA CREADA YA QUE SI ESTO NO PASA EL PUNTERO
+ APUNTA A LA NADA MISMA.
+
+
+
+*********************************************¿que es el vector enrealidad?**********************************************
+
+-Es una direccion de memoria que apunta al primer elemento o indice
+
+
+    
+
+
+
+
+
+
+***************************************************EJERCICIOS PUNTEROS************************************
+
+int vector [3];
+int* puntero;
+int i;
+
+  puntero= vector; /**para obtener la direccion de memoria , no hace falta "&" o "*"*/
+    /*Es decir a puntero le estoy pasando la direccion de memoria de vector*/
+
+
+---------------------------------------------------------------------------------------
+
+for(i=0;i<3;i++)
+  {
+      printf("Ingrese un numero : \n");
+      scanf("%d",puntero+i);   /** no le pongo nada al puntero ya que pidela direccion de memoriael scanf*/
+  }
+
+
+---------------------------------------------------------------------------------------
+
+for(i=0;i<3;i++)
+    {
+        printf("NUMERO : %d \n",*(puntero+i));/**cuando quiero obtener el valor de la direccion de memoria utilizamos "*"    */
+    }
+
+
+
+
+
+
+
+/****************************************************************************************************************************************************/
+
+ """"IF""" PARA UTILIZAR EN CADA FUNCION QUE RECIBA UN PUNTERO YA QUE UN PUNTERO PUEDE NO TENER NADA;
+El IF ESPERA UN VALOR BULEANO , CUALQUIER VALOR DISTINTO DE CERO ES VERDADERO , SI ES "0" ES FALSO
+
+Ejemplo si declaro un puntero sin pasarle una direccion de memoria , apunta a cualquier lado o le llegue un valor NULL:
+
+
+   if(aray!=NULL) /**control de nulidad en funciones por las dudas ante s de hacer cualquier cosa*/
+ 
+
+*********************************************************************
+
+!!!!!SIZE OF !!!!!: OPERADR QUE ME PERMITE SABER EL TAMAÑO DE UNA VARIABLE ES DECIR EL TAMAÑO DELA DIRECCION DE MEMORIA;
+devuelve tamaño en bytes del tipo de dato que le pasemos ;
+
+Cuando la estructura no es multiplico de 4 , la funcion sizeof redondea para que se multiplo de 4 , ejemplo si dentro la suma es de 4 bytes y 1 bytes 
+el total es "5", entonces la funcion size of lo redondea a 8 .Se llama SUMA IMPADING (para que sea multiplo de 8 ).
+EL SIZE OF LO VAMOS A UTILIZAR AL SISTEMA OPERATIVO PARA SABER CUANTO NECESITAMOS DE ESPACIO .
+
+Es decir por definicion la estructura vale la suma de sus datos , el tamaño que pesa.
+
+EJEMPLO:
+
+                 printf("TAM: %d\n",sizeof(edato));
+
+
+
+
+*********************************************************************************
+-UNA DIRECCION DE MEMORIA NO PUEDE CONTENER CAMPOS ....
+
+
+   edato d;
+
+    d.a=5;
+    d.b='<';
+    
+    edato* pDato;
+    pDato=&d;
+
+
+                     &PDato=0x39EF
+       opciones      pDATO=0X37E
+                    *pDATO=d
+
+
+            printf("%d",(*pDato).a); // Para acceder a un valor particular de la variable;
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+  FUNCION PARA MOSTRAR ARRAY DE PUNTERO DE ESTRUCTURAS QUE NO SIRVE
+ 
+      edato lista [2]={{1,'a'},{1,'b'}};
+      edato* pLista;
+
+      pLista=lista;// no hace falta el ampersand porque es un array
+
+      int i;
+      for (i=0;i<2;i++)
+      {
+          printf("%d--%c\n",(*(pLista+i)).a,(*(pLista+i)).b);
+      }
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+OPERADOR FLECHA "->" : SIRVE PARA HACER QUE EL ACCESO AL QUE APUNTA UN PUNTERO SEA MAS SENCILLO.
+EL OPERADOR FLECHA REEMPLAZ EL "*" Y EL "." , ES DECIR QUE VA A MOSTRAR EL "VALOR" QUE CONTIENE LA VARIABLE DE LA
+ESTRUCTURAR A LA CUAL ACCEDERIAMOS CON EL "."
+  Ejemplo :
+
+            "   printf("%d--%c",pDato->a,pDato->b)  "
+
+
+
+
+

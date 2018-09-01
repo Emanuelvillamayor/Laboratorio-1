@@ -1,0 +1,86 @@
+FILE * archivo; -> siempre tiene que ser puntero
+
+char cadena[50];
+archivo =fopen ("mi archivo TXT.txt","w");
+fprintf(archivo,cadena);
+fclose(archivo);
+
+
+printf("Hello world!\n);
+
+fgets(cadena
+
+ 
+Si tengo un recursp tomado y quiero modificar algo no puedo
+
+es como si estamos escuchando una cancion y queremos borrar , no lo deja porque ese recurso ya esta tomado .
+
+Queda el puntero en ese archivo y el recurso queda tomado si no respeto los tres pasos
+
+-Podemos tener el archivo abierto e ir poniendole cosas a cada rato.-> pero la programacion es mas complicada
+
+  fopen (1 er parametro,2 parametro ) 
+  1 parametro es el pad -> nombre y direccion junto su extension  ejemplo ->"mi archivo TXT.txt"
+  2 parametro es el mod-> modo de uso , para escritura (w) o para leer (r).
+
+Ser lo asigno a una variable de tipo FILE 
+si el archivo no existe , lo crea y si ya existe , lo sobreescribe
+
+puede ocurrir que  no exista el primer parametro y que devuelva NULL, en el caso de que el directorio no exita
+
+
+
+2 -AHORA VOY A GUARDAR DATOS
+      fprintf(1 parametro,2 parametro); imprime en el archivo de texto
+
+  ejemplo : fprintf(archivo,"%d",100);
+
+1 parametro , flujo de salida es decir "archivo"(el puntero)
+2 parametro , una cadena con el mensaje ->"hola a todos"; o se le puede pasar la variable que contiene el mensaje
+
+
+3-Cierro el archivo fclose -> hasta que no se cierre el flujo del programa , no se imprime nada 
+  
+
+   remove (pad del archivo) -> direccion de donde se guarda el archivo y lo borra
+
+   pad del arhcivo="\\d:\\carpeta"........"
+
+
+
+
+
+Para lectura , fopen lo uso en modo lectura 
+               archivo =fopen ("mi archivo TXT.txt","r");
+
+     fgets(cadena,50,archivo)-> consigue lo que hay en el archivo
+
+   El fgets LEE SOLO UNA LINEA y tambien agrega un enter por lo cual deja un espacio
+   
+ 
+  1parametro->cadena 
+  2           ->longitud
+  3            ->archivo 
+
+puts (cadena)
+Un archvo tiene un indicador , y queda al final de la cadena
+
+feof->sirve para saber si llego al final del archivo y devuelv valor
+
+el puts es como un printf sin condicion ;
+
+while (!feof(archivo))-> mientras no sea el final del archivo
+{
+  fgets(cadena,50,archivo);
+  puts(cadena);
+}
+
+
+
+fclose(cadena);
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1529719673 source:c:\users\manu\desktop\parcial tramite completo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1529719673 c:\users\manu\desktop\parcial tramite completo\arraylist.h
+
+1529725116 source:c:\users\manu\desktop\parcial tramite completo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Tramite.h"
+	"Arraylist.h"
+
+1529724878 c:\users\manu\desktop\parcial tramite completo\tramite.h
+	"Arraylist.h"
+
+1529724878 source:c:\users\manu\desktop\parcial tramite completo\tramite.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Tramite.h"
+
+1529719673 source:c:\users\manu\desktop\parcial tramite\parcial tramite completo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1529719673 c:\users\manu\desktop\parcial tramite\parcial tramite completo\arraylist.h
+
+1529725276 source:c:\users\manu\desktop\parcial tramite\parcial tramite completo\tramite.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Tramite.h"
+
+1529724878 c:\users\manu\desktop\parcial tramite\parcial tramite completo\tramite.h
+	"Arraylist.h"
+

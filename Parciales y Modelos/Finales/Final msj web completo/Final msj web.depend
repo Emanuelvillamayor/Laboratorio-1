@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1531200113 source:c:\users\manu\desktop\final msj web\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mensajes.h"
+
+1531200123 c:\users\manu\desktop\final msj web\mensajes.h
+	"Arraylisth.h"
+	<stdio.h>
+	<stdlib.h>
+
+1531191278 c:\users\manu\desktop\final msj web\arraylisth.h
+
+1531191517 source:c:\users\manu\desktop\final msj web\arraylisth.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylisth.h"
+
+1531200153 source:c:\users\manu\desktop\final msj web\mensajes.c
+	"mensajes.h"
+	<string.h>
+	<ctype.h>
+
+1531191517 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final msj web\arraylisth.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylisth.h"
+
+1531191278 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final msj web\arraylisth.h
+
+1532471262 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final msj web\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mensajes.h"
+
+1532471223 c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final msj web\mensajes.h
+	"Arraylisth.h"
+	<stdio.h>
+	<stdlib.h>
+
+1532471242 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\finales\final msj web\mensajes.c
+	"mensajes.h"
+	<string.h>
+	<ctype.h>
+

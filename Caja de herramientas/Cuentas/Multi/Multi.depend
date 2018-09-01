@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1523158352 source:c:\users\manu\desktop\multi\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Multi.h"
+
+1523158352 c:\users\manu\desktop\multi\multi.h
+
+1523158352 source:c:\users\manu\desktop\multi\multi.c
+	"Multi.h"
+	"stdio.h"
+

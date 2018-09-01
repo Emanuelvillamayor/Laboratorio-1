@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1532477896 source:c:\users\manu\desktop\final socio\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1532477896 c:\users\manu\desktop\final socio\arraylist.h
+
+1532481042 source:c:\users\manu\desktop\final socio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"persona.h"
+
+1532481042 c:\users\manu\desktop\final socio\persona.h
+	"Arraylist.h"
+
+1532478530 source:c:\users\manu\desktop\final socio\persona.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"persona.h"
+

@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1530153992 source:c:\users\manu\desktop\parcial 2 productos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"Productos.h"
+
+1529902671 c:\users\manu\desktop\parcial 2 productos\arraylist.h
+
+1530150690 c:\users\manu\desktop\parcial 2 productos\productos.h
+	"Arraylist.h"
+
+1529902669 source:c:\users\manu\desktop\parcial 2 productos\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1530154347 source:c:\users\manu\desktop\parcial 2 productos\productos.c
+	"Productos.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1529902669 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1529902671 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos\arraylist.h
+
+1531020944 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"Productos.h"
+
+1531013280 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos\productos.h
+	"Arraylist.h"
+
+1531019493 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos\productos.c
+	"Productos.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1529902669 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos completo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1529902671 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos completo\arraylist.h
+
+1531020944 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos completo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"Productos.h"
+
+1531013280 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos completo\productos.h
+	"Arraylist.h"
+
+1531021025 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 productos completo\productos.c
+	"Productos.h"
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+

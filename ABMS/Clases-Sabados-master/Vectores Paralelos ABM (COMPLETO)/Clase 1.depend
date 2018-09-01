@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1523721710 source:c:\users\alumno\desktop\clase 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Productos.h"
+
+1523721687 c:\users\alumno\desktop\clase 1\productos.h
+
+1523721687 source:c:\users\alumno\desktop\clase 1\productos.c
+	<stdio.h>
+	"Productos.h"
+	<string.h>
+
+1524314153 source:c:\users\alumno\desktop\git\clases-sabados\vectores paralelos abm (incompleto)\productos.c
+	<stdio.h>
+	"Productos.h"
+	<string.h>
+
+1524314153 c:\users\alumno\desktop\git\clases-sabados\vectores paralelos abm (incompleto)\productos.h
+
+1524323648 source:c:\users\alumno\desktop\git\clases-sabados\vectores paralelos abm (incompleto)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"Productos.h"
+
+1524980482 source:c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master2\vectores paralelos abm (incompleto)\productos.c
+	<stdio.h>
+	"Productos.h"
+	<string.h>
+
+1524979417 c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master2\vectores paralelos abm (incompleto)\productos.h
+
+1524980394 source:c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master2\vectores paralelos abm (incompleto)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"Productos.h"
+
+1525050514 source:c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master\vectores paralelos abm (completo)\productos.c
+	<stdio.h>
+	"Productos.h"
+	<stdlib.h>
+	<string.h>
+
+1525121570 c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master\vectores paralelos abm (completo)\productos.h
+
+1525030790 source:c:\users\manu\desktop\manu\programacion\abms\clases-sabados-master\vectores paralelos abm (completo)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"Productos.h"
+

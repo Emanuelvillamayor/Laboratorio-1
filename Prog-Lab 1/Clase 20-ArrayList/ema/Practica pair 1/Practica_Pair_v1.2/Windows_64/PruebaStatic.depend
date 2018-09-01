@@ -1,0 +1,186 @@
+# depslib dependency file v1.0
+1463488858 source:k:\pruebastatic\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+
+1463488858 .h"
+
+1463488500 k:\pruebastatic\arraylist.h
+
+1463505889 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463505431 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/ArrayList.h
+
+1463505760 source:/home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1463505789 /home/mauro/Descargas/ARRAY_LIB/LINUX_64/Employee.h
+
+1464384445 source:c:\users\profesor\desktop\example4_static_lib\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1463604778 c:\users\profesor\desktop\example4_static_lib\win_64\arraylist.h
+
+1464384298 c:\users\profesor\desktop\example4_static_lib\win_64\employee.h
+
+1464384349 source:c:\users\profesor\desktop\example4_static_lib\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1464384471 source:c:\users\profesor\desktop\example4_static_lib\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1528383529 source:d:\ema\practica_pair_v1.2\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<string.h>
+
+1528380131 d:\ema\practica_pair_v1.2\windows_64\arraylist.h
+
+1528382985 d:\ema\practica_pair_v1.2\windows_64\employee.h
+
+1528380927 source:d:\ema\practica_pair_v1.2\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	<string.h>
+	"Employee.h"
+
+1528383518 source:d:\ema\practica_pair_v1.2\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+
+1528419232 source:c:\users\manu\desktop\clase 19\practica_pair_v1.2\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	<string.h>
+	"Employee.h"
+
+1528408833 c:\users\manu\desktop\clase 19\practica_pair_v1.2\windows_64\arraylist.h
+
+1528408684 c:\users\manu\desktop\clase 19\practica_pair_v1.2\windows_64\employee.h
+
+1528418970 source:c:\users\manu\desktop\clase 19\practica_pair_v1.2\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<string.h>
+
+1528408785 source:c:\users\manu\desktop\clase 19\practica_pair_v1.2\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<string.h>
+
+1528408786 source:c:\users\alumno\desktop\clase 19\practica_pair_v1.2\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<string.h>
+
+1528408834 c:\users\alumno\desktop\clase 19\practica_pair_v1.2\windows_64\arraylist.h
+
+1528408686 c:\users\alumno\desktop\clase 19\practica_pair_v1.2\windows_64\employee.h
+
+1528408786 source:d:\ema\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<string.h>
+
+1528408834 d:\ema\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\arraylist.h
+
+1528408686 d:\ema\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\employee.h
+
+1528550134 source:d:\ema\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	<string.h>
+	"Employee.h"
+
+1528459100 source:d:\ema\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<string.h>
+
+1528940710 source:c:\users\manu\desktop\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	<string.h>
+	"Employee.h"
+
+1528408834 c:\users\manu\desktop\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\arraylist.h
+
+1528938156 c:\users\manu\desktop\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\employee.h
+
+1528940573 source:c:\users\manu\desktop\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<ctype.h>
+	<string.h>
+
+1528933229 source:c:\users\manu\desktop\sabado 3\clase 20\ema\clase 19\practica_pair_v1.2\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<string.h>
+
+1529546793 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 20-arraylist\ema\practica pair 1\practica_pair_v1.2\windows_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"Employee.h"
+	<ctype.h>
+	<string.h>
+
+1528408834 c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 20-arraylist\ema\practica pair 1\practica_pair_v1.2\windows_64\arraylist.h
+
+1529544707 c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 20-arraylist\ema\practica pair 1\practica_pair_v1.2\windows_64\employee.h
+
+1529532881 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 20-arraylist\ema\practica pair 1\practica_pair_v1.2\windows_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	<string.h>
+	"Employee.h"
+
+1529532591 source:c:\users\manu\desktop\manu\programacion\prog-lab 1\clase 20-arraylist\ema\practica pair 1\practica_pair_v1.2\windows_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"Employee.h"
+	<string.h>
+

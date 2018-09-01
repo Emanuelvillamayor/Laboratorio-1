@@ -1,0 +1,37 @@
+
+
+A  el malloc se le pasa la cantidad de array 
+malloc(size of(int)*5)
+
+REALLOC, FUNCION QUE REASIGNA ESPACIO EN MEMORIA.-> *******NO SE PUEDE HACER SI NO HICE UN MALLOC*****
+LE DIGO LA CANTIDAD DE BYTES QUE NECESITO.SON LOS QUE YA TENGO MAS LOS QUE LE QUIERO PASAR
+Resive puntero a void 
+
+(size of(int)*6) -> es decir si tengo 3 , y le quiero agregar 3 mas pongo 6.
+
+En el primer parametro le digo desde donde tiene que empezar a buscar:
+
+desdeaca   hastaaca
+(pVector,sizeof(int)*10);
+
+PUEDEN PASR TRES COSAS:
+1-Encuentra
+
+2-No encuentra y reasigna:
+como el acceso memoria es dinamico , puede ser que el sistema operativo haya reservado espaci
+en memoria para otra variable de la que queramos cargar mas.
+Entonces lo que hace es buscar otra direccion de memoria consecutiva que tenga lugar
+y los copia a ese lugar , reasignando la direccion de memoria del puntero en la pila
+
+3-Puede pasar que no encuntra y devuelve nulo
+
+******************************free*****************************
+Funcion free , libera memoria desde codigo
+
+
+
+Funcion que haga lo del malloc , se llama constructor
+La idea es evitar hacer un malloc cada vez que tengamos que llamar a una funcion.
+
+
+CONSTRUCTORES , FUNCIONES QUE SE ENCARGAR DE RESERVAR ESPACIO EN MEMORIA

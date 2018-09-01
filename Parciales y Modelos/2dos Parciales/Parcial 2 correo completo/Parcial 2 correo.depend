@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1529777566 source:c:\users\manu\desktop\parcial 2 correo\arrylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"arraylist.h"
+
+1529777566 c:\users\manu\desktop\parcial 2 correo\arraylist.h
+
+1530141485 source:c:\users\manu\desktop\parcial 2 correo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"correo.h"
+	<string.h>
+
+1530141668 source:c:\users\manu\desktop\parcial 2 correo\correo.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Arraylist.h"
+	"correo.h"
+
+1530141317 c:\users\manu\desktop\parcial 2 correo\correo.h
+
+1529786191 source:c:\users\manu\desktop\parcial 2 correo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1529786191 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 correo completo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1529777566 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 correo completo\arraylist.h
+
+1530141485 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 correo completo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"correo.h"
+	<string.h>
+
+1530141317 c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 correo completo\correo.h
+
+1530142856 source:c:\users\manu\desktop\manu\programacion\parciales y modelos\2dos parciales\parcial 2 correo completo\correo.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"Arraylist.h"
+	"correo.h"
+

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1524507656 source:c:\users\alumno\desktop\abm paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1524614101 source:c:\users\manu\desktop\abm paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1525122457 source:c:\users\manu\desktop\manu\programacion\abms\abm paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"paralelos.h"
+
+1525121570 c:\users\manu\desktop\manu\programacion\abms\abm paralelos\paralelos.h
+
+1525121319 source:c:\users\manu\desktop\manu\programacion\abms\abm paralelos\paralelos.c
+	"paralelos.h"
+	"stdio.h"
+	<string.h>
+	<stdlib.h>
+
